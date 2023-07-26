@@ -1,19 +1,20 @@
 # Steptech_Assignment
 #The brief README file that includes instructions on how to set up and run your django applications And git workflow
-git clone https://github.com/nikitabolkar123/Steptech_Assignment.git
-python -m venv venv
-source venv/bin/activate  
-pip freeze > requirement.txt
-pip install django psycopg2
-django-admin startproject steptech_app .
-python manage.py startapp user
-python manage.py makemigrations
-python manage.py migrate
-git checkout -b stoptech_assignment
-git add .
-git commit -m "[Nikita] Added. users data"
-git push origin steptech_assignment
-python manage.py runserver
+
+#git clone https://github.com/nikitabolkar123/Steptech_Assignment.git
+#python -m venv venv
+#source venv/bin/activate  
+#pip freeze > requirement.txt
+#pip install django psycopg2
+#django-admin startproject steptech_app .
+#python manage.py startapp user
+#python manage.py makemigrations
+#python manage.py migrate
+#git checkout -b stoptech_assignment
+#git add .
+#git commit -m "[Nikita] Added. users data"
+#git push origin steptech_assignment
+#python manage.py runserver
 
 
 #database 
