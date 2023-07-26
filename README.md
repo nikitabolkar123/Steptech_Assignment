@@ -62,7 +62,7 @@ python manage.py migrate
     ('priya', 'priya@gmail.com', 'java developer'),
     ('ram', 'ram@gamil.com', 'hr');
 
- # Retrieve All Users from "users" table:
+#Retrieve All Users from users table:
 SELECT * FROM users;
 #Retrieve a Specific User by ID
 SELECT * FROM users WHERE id = <user_id>;
