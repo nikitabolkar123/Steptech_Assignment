@@ -21,6 +21,26 @@
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+
+
+       .create-user-button {
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #808080;
+            border-radius: 5px;
+        }
+
+        .create-user-button:hover {
+            background-color: #A9A9A9;
+        }d-color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -43,5 +63,8 @@
             {% endfor %}
         </tbody>
     </table>
+    <a href="{% url 'new_user' %}" class="create-user-button">
+        Create New User
+    </a>
 </body>
 </html>
